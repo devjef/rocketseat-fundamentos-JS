@@ -1,0 +1,8 @@
+Celsius em Fahrenheit
+
+Crie uma função que recebe uma string em celsius ou fahrenheit e faça a transformação de uma unidade para a ontouchstart
+
+Fórmulas
+
+Para Celsius = (F - 32) * 5/9
+Para Fahrenheit = C * 9/5 + 32
