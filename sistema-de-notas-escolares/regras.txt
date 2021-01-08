@@ -1,6 +1,6 @@
 Transformar notas escolares
 
-Crie um algoritmo que transforme as notas do sistema numérico para sistema de notas em caracteres tipo A B Crie
+Crie um algoritmo que transforme as notas do sistema numérico para sistema de notas em caracteres tipo A B C
 
 * de 90 pra cima - A
 * entre 80 - 89 - B
