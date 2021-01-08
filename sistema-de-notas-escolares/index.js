@@ -1,6 +1,6 @@
 'use strict'
 
-let notas = {
+const notas = {
     A: (score) => score >=90 ? true : false,
     B: (score) => score >=80 && score <= 89 ? true : false,
     C: (score) => score >=70 && score <= 79 ? true : false,
@@ -8,9 +8,9 @@ let notas = {
     F: (score) => score < 60 ? true : false
 };
 
-let notaAluno = 80;
+let notaAluno = 95;
 
-const validaNota = (notas, notaAluno) => {
+const validaNota = (notaAluno) => {
 
     let notaFinal;
     for(let nota in notas) {
@@ -19,4 +19,4 @@ const validaNota = (notas, notaAluno) => {
     return notaFinal;
 };
 
-console.log(validaNota(notas, notaAluno));
+console.log(validaNota(notaAluno));
